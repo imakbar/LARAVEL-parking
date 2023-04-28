@@ -1,0 +1,272 @@
+
+
+.modal-xl {
+	padding: 0!important;
+}
+.modal-xl .modal_xl {
+	width: 100%!important;
+	max-width: 100%!important;
+	margin: 0!important;
+	padding: 45px!important;
+}
+.site_model_tabs .card-header {
+    background: #fafafa;
+    border: none;
+    border-radius: 5px;
+}
+.site_model_tabs .card-body {
+    padding-left: 0;
+    padding-right: 0;
+}
+.site_model_tabs .card-body h1,
+.site_model_tabs .card-body h2,
+.site_model_tabs .card-body h3,
+.site_model_tabs .card-body h4,
+.site_model_tabs .card-body h5,
+.site_model_tabs .card-body h6,
+.site_model_tabs .card-body p,
+.site_model_tabs .card-body {
+	color: #111;
+}
+.site_model_tabs .card-body h1 {
+	font-size: 24px;
+}
+.site_model_tabs .card-body h2 {
+	font-size: 20px;
+}
+.site_model_tabs .card-body h3 {
+	font-size: 17px;
+}
+.site_model_tabs .card-body hr {
+    margin-top: 1.4rem;
+    margin-bottom: 1.4rem;
+    border-top: 1px solid rgba(0,0,0,.03);
+}
+.site_model_close_btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: -24px;
+    margin-right: -24px;
+    background: red !important;
+    opacity: 1;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    z-index: 99;
+}
+
+.vdp-datepicker {
+    padding: 0;
+    margin: 0;
+}
+.vdp-datepicker input {
+    border-color: rgba(0, 0, 0, 0.1)!important;
+    font-size: 12px !important;
+    border-radius: 100rem !important;
+    padding: .375rem .75rem;
+    line-height: 1.5;
+    width: 100%;
+    border-width: 1px;
+}
+.vdp-datepicker input:focus {
+    border-color: #ff80d0;
+    box-shadow: 0 0 0 0.2rem rgba(255, 0, 189, 0.25);
+}
+
+.form-control:focus {
+    border: none !important;
+    box-shadow: 0 0 0 0.2rem rgba(255, 0, 189, 0.25);
+}
+
+.quote-setting .multiselect {
+    min-height: 32px;
+}
+.quote-setting .multiselect__tags {
+    min-height: 32px;
+    padding: 6px 37px 0 9px;
+    border-radius: 60px;
+    border: 1px solid #e8e8e8;
+    font-size: 11px;
+}
+.quote-setting .multiselect__input, 
+.quote-setting .multiselect__single {
+    font-size: 13px;
+}
+.quote-setting .multiselect__select {
+    height: 32px;
+}
+select.form-control:not([size]):not([multiple]) {
+    height: auto !important;
+}
+
+
+.vdp-datepicker__calendar {
+    width: 250px!important;
+}
+.vdp-datepicker__calendar header {
+    line-height: 26px!important;
+}
+.vdp-datepicker__calendar header span {
+    font-size: 11px!important;
+}
+.vdp-datepicker__calendar .cell {
+    font-size: 10px!important;
+    height: 34px!important;
+    line-height: 34px!important;
+}
+
+
+
+
+
+
+
+/* RATING */
+.rateit .stars {
+    background: url(../../assets/images/stars.png) repeat-x 0 0;
+    width: 150px;
+}
+ 
+.rateit .stars input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+.rateit .stars input[type="radio"].star-5:checked ~ span {
+  width: 100%;
+}
+.rateit .stars input[type="radio"].star-4:checked ~ span {
+  width: 80%;
+}
+.rateit .stars input[type="radio"].star-3:checked ~ span {
+  width: 60%;
+}
+.rateit .stars input[type="radio"].star-2:checked ~ span {
+  width: 40%;
+}
+.rateit .stars input[type="radio"].star-1:checked ~ span {
+  width: 20%;
+}
+.rateit .stars label {
+  display: block;
+  width: 30px;
+  height: 30px;
+  margin: 0!important;
+  padding: 0!important;
+  text-indent: -999em;
+  float: left;
+  position: relative;
+  z-index: 10;
+  background: transparent!important;
+  cursor: pointer;
+}
+.rateit .stars label:hover ~ span {
+  background-position: 0 -30px;
+}
+.rateit .stars label.star-5:hover ~ span {
+  width: 100% !important;
+}
+.rateit .stars label.star-4:hover ~ span {
+  width: 80% !important;
+}
+.rateit .stars label.star-3:hover ~ span {
+  width: 60% !important;
+}
+.rateit .stars label.star-2:hover ~ span {
+  width: 40% !important;
+}
+.rateit .stars label.star-1:hover ~ span {
+  width: 20% !important;
+}
+.rateit .stars span {
+  display: block;
+  width: 0;
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 30px;
+  background: url("../../assets/images/stars.png") repeat-x 0 -60px;
+  -webkit-transition: -webkit-width 0.5s;
+  -moz-transition: -moz-width 0.5s;
+  -ms-transition: -ms-width 0.5s;
+  -o-transition: -o-width 0.5s;
+  transition: width 0.5s;
+}
+/* /RATING */
+
+.tab-padding-0 .card-body {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+
+.c-loading {
+  display: -ms-flexbox!important;
+  display: flex!important;
+  
+  -ms-flex-pack: center!important;
+  justify-content: center!important;
+
+  -ms-flex-align: center!important;
+  align-items: center!important;
+
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.editor-list .nav-pills,
+.editor-list .nav-pills li {
+  list-style: none;
+}
+
+.editor-list ul {
+  padding-left: 35px;
+}
+.editor-list ul li {
+    list-style: circle;
+}
+
+
+/* COLORS */
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  background: rgba(239, 8, 128, 1)!important;
+  color: #fff!important;
+}
+.nav-pills a.nav-link {
+  color: rgba(239, 8, 128, 1)!important;
+}
+
+
+
+
+
+
+.sm-countdown .vuejs-countdown {
+    -ms-flex-pack: center!important;
+    justify-content: center!important;
+
+    display: -ms-flexbox!important;
+    display: flex!important;
+}
+.sm-countdown .vuejs-countdown .digit {
+    font-size: 12px;
+}
+.sm-countdown .vuejs-countdown .text {
+    text-transform: capitalize;
+    font-size: 9px;
+}
+.sm-countdown .vuejs-countdown li {
+    margin: 0 5px;
+}
+.sm-countdown .vuejs-countdown li:after {
+    top: -2px;
+    right: -6px;
+    font-size: 13px;
+}

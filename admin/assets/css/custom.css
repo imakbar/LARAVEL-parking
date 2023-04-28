@@ -1,0 +1,115 @@
+/*@import url("font-awesome.min.css");*/
+@import url("../../../assets/fonts/awesome/awesome.css");
+@import url("../../../assets/fonts/simple-line-icons/css/simple-line-icons.css");
+@import url("../../../assets/fonts/meteocons/style.css");
+@import url("../../../assets/fonts/material-design-iconic-font/css/material-design-iconic-font.min.css");
+/*@import url("vendors/sliders.css");*/
+
+
+.img-file-tab img {
+	width: 100% !important;
+}
+
+.list-style-none {
+	list-style: none;
+}
+
+.btn-pointer {
+	cursor: pointer;
+}
+
+.v-select .dropdown-toggle::after { display: none; }
+
+.vertical-tabs .h-100 {
+    height: auto!important;
+}
+.custom-file-input:focus~.custom-file-label:after, .custom-file-label, .custom-file-label:after, .form-control {
+    background: #fafafa;
+}
+.multiselect__tags {
+    min-height: 35px !important;
+    padding: 6px 40px 0 8px !important;
+    background: #fafafa !important;
+}
+.multiselect__single {
+    margin-bottom: 4px !important;
+    font-size: 13px !important;
+    font-weight: initial !important;
+    background: none !important;
+}
+.parking-vertical-tabs .tabs .card-body {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.parking-vertical-tabs .nav-pills .nav-link {
+    font-size: 12px;
+    padding: 7px 14px;
+}
+
+/*.form-group {
+    margin-bottom: 2px;
+}*/
+.custom-control-input:disabled~.custom-control-label, .custom-file-label, .custom-file-label:after, .form-control, .form-control-plaintext, .form-control:focus, .table {
+    font-size: 12px;
+}
+label {
+    font-size: 10px!important;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.custom-radio label {
+    line-height: 23px;
+}
+
+.site_model_close_btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: -24px;
+    margin-right: -24px;
+    background: red !important;
+    opacity: 1;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    z-index: 99;
+}
+
+.tab-padding-0 .card-body {
+    padding-left: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.mini-search .vdp-datepicker input {
+    background: #fafafa;
+    border: solid 1px #eee;
+    height: 38px;
+    border-right: none;
+    padding-left: 11px;
+    font-size: 11px;
+}
+
+
+
+.sm-countdown .vuejs-countdown {
+    -ms-flex-pack: center!important;
+    justify-content: center!important;
+
+    display: -ms-flexbox!important;
+    display: flex!important;
+}
+.sm-countdown .vuejs-countdown .digit {
+    font-size: 12px;
+}
+.sm-countdown .vuejs-countdown .text {
+    text-transform: capitalize;
+    font-size: 9px;
+}
+.sm-countdown .vuejs-countdown li {
+    margin: 0 5px;
+}
+.sm-countdown .vuejs-countdown li:after {
+    top: -2px;
+    right: -6px;
+    font-size: 13px;
+}
